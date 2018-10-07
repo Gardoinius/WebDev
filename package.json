@@ -1,0 +1,25 @@
+{
+  "name": "webdev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianCon/WebDev.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianCon/WebDev/issues"
+  },
+  "homepage": "https://github.com/AdrianCon/WebDev#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
