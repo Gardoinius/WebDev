@@ -10,7 +10,25 @@
 	#Buttons
 	#Forms
 	#Misc */
+	.ticket-button {
+		display: flex;
+		width: 100%;
+		background: white;
+		border-left: 2px solid crimson;
+		padding: 11px;
+		justify-content: space-between;
+		align-items: center;
+		color: black !important;
+	}
 
+	.ticket-button a {
+		width: 64px;
+    color: white;
+    background: crimson;
+		padding: 16px;
+		display: block;
+    height: 20px;
+	}
 
 /* #Reset & Basics (Inspired by E. Meyers)
 ================================================== */
@@ -41,7 +59,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
-		background-color: black;
+		/* background-color: black; */
 		font: 17px/23px 'OpenSans-Light-webfont';
 		color: #000;
 		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
